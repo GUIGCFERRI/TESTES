@@ -1,0 +1,526 @@
+body{
+	background-color: #FFFFF0;
+	margin: 0;
+}
+#logo{
+	 position: absolute;
+  width: 220px;
+  height: 120px;
+  top: 0px;  
+  bottom: 0px;
+  left: 150px;
+  
+}
+nav{
+	
+	height: 120px;
+	background-color: black;
+	width: 100% !important;
+}
+#teste1{
+	width: 100%;
+	height: 100%;
+}
+#fieldset{
+	background-color: #EEE5DE;
+	padding-top: 2%;
+	margin-top: 2%;
+	margin-right:50px;
+	margin-left:50px;
+	
+}
+
+.container{
+	width: 100%;
+	float: left;
+	padding: 1%;
+	text-align: center;
+	display: block;
+	
+}
+.banner{
+	padding: 0 !important;
+
+	height: 500px;
+	background-color: white;
+}
+.banner img{
+	width: 100%;
+	height: 500px;
+}
+
+.titulo1{
+	
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 1.5em;
+	
+}
+.titulo2{
+	margin-top: 10px;
+	
+	text-align: center;
+	background-color: black;
+	color: white;
+	font-size: 1.5em;
+	bottom: 0;
+}
+
+.menu{
+	width: 50%;
+	height: 70px;
+	font-family: arial;
+	text-align: center;
+	margin-left: 500px;
+	padding-top: 15px;
+	padding-bottom: 1px;
+}
+.menu ul{
+	list-style: none;
+	position: relative;
+}
+.menu ul li{
+	width: 150px;
+	
+	float: left;
+}
+.menu a{
+	padding: 10px;
+	display: block;
+	text-decoration: none;
+	text-align: center;
+	background-color: white;
+	color: black;
+	
+}
+.menu ul ul{
+	position: absolute;
+	visibility: hidden;
+}
+.menu ul li:hover ul{
+	visibility: visible;
+}
+.menu a:hover{
+	background-color: grey;
+	color: white;
+transition: all 0.5s linear;
+}
+.menu li:hover > ul.submenu-1{ display:block; top:38px; left:300px;  width:200px; }
+.menu ul.submenu-1 a{  width:130px; padding:10px; font-size:1.3em;font-family: arial}
+
+.produtos article {
+	width: 24%;
+	margin-right: 1%;
+	float: left;
+	background-color: #FFFFF0;
+	margin-bottom: 3%;
+	text-align: justify;
+	
+}
+.produtos article p{
+	margin:2px;
+}
+.produtos article h3{
+	color: red;
+	margin: 0px;
+}
+.produtos article h5{
+	color: green;
+	margin: 2px;
+}
+
+.produtos article img {
+	
+	
+	width: 100%;
+	height: 500px;
+}
+
+.produtos article:nth-child(4){
+	margin-right: 0;
+}
+.inner{
+	padding: 7%;
+}
+.inner h4{
+	font-size: 1.2em;
+	color: #000000;
+	font-weight: bold;
+}
+.inner p{
+	font-size: 1em;
+	color: #000000;
+	line-height: 1.5em;
+	margin-top:7%;	
+}
+.wp{
+	width: 85%;
+	margin: 0 auto 0 auto;
+}
+.social-icons a {
+		color: rgba(255,255,255,0.5);
+		font-size: 2.5em;
+		margin-right: 3%;
+}
+.social-icons a:hover{
+	color:#fff;
+}
+.social-icons a:last-child{
+	margin-right: 0;
+}
+
+.copy {
+	color: rgba(255,255,255,0.5);
+	margin-top: 3%;
+}
+#lista{
+	float:right;
+	margin-right: 100px;
+	margin-top: 40px;
+	
+}
+.serviços article ul{
+	
+	font-size: 1.3em;
+}
+
+#lista li{
+	margin-bottom: 5%;
+}
+#lista1{
+	margin-left: 105px;
+	width: 50%;
+	margin-bottom: 10px;		
+}
+#lista1 li{
+	
+}
+
+
+#lista2{
+	
+	width: 50%;
+	margin-bottom: 10px;
+	margin-left: 600px;
+	
+
+}
+#lista2 li{
+	margin-bottom: 5%;
+}
+#lista3{
+	margin-left: 105px;
+	width: 50%;
+	margin-bottom: 10px;
+	
+}
+
+.serviços{
+	Padding-left: 2% ;
+}
+.serviços article{
+	width: 52%;
+	
+	float: left;
+	background-color: #FFFFF0;
+	margin-bottom: 3%;
+	text-align: justify;
+}
+.serviços article img {
+	
+	margin-left:0;
+	width: 300px;
+	height: 300px;
+}
+
+
+.rodape{
+	padding-top: 1%;
+	background-color: #000000;
+	text-align: center;
+	width: 1550px;
+}
+#contatos{
+	color: white;
+}
+/*RESPONSIVIDADE */
+/*tablets landscape e desktops antigos*/
+@media screen and (max-width: 1359px){
+	.menu{
+	margin-right:5px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	margin-left: 0;
+	
+
+}
+.rodape{
+	width:98%;
+	height: 50%;
+}
+#lista1{
+	margin-left: 300px;
+	margin-right: 20px;
+}
+#lista1 img{
+	width:100%;
+}
+
+#lista2{	
+	margin-left: 300px;
+	margin-bottom: 20px;
+margin-right: 20px;	
+}
+#lista2 img{
+	width:100%;
+}
+
+#lista3{
+	margin-left: 300px;
+}
+#lista3 img{
+	width:100%;
+}
+
+#lista{
+	margin-left:70px;
+	margin-right: 170px;
+}
+.menu ul li:nth-child(3){
+	float: left
+}
+.menu ul li{
+	display: block;
+	font-size: 1em;
+	padding-right: 80px;
+	padding-top: 30px;
+	
+}
+.menu ul {
+	text-align: center !important;
+	margin-top: 28%;
+	margin-left: 25%;
+}
+
+.menu ul li a:hover{
+	color: #E81127;
+	background-color: transparent;
+	
+}
+
+
+#btn-fechar {
+	width: 56px;
+	height: 56px;
+	font-size: 1.5em;
+	color: #E81127;
+	background-color: transparent;
+	float: right;
+	margin: 3%;
+	margin-right: 12%;
+}
+#btn-menu {
+	width: 56px;
+	height: 56px;
+	font-size: 1.5em;
+	color: #E81127;
+	background-color: transparent;
+	float: right;
+	margin: 3%;
+}
+}
+@media screen and (max-width: 960px) {
+.wp { width: 100%; }
+#logo{
+	margin-left: -140px;
+}
+.rodape{
+	width:98%;
+	height: 50%;
+}
+
+.serviços article{
+	width: 100%!important;		
+	background-color: #FFFFF0;	
+	text-align: justify;	
+}
+#fieldset{
+		margin-left: 2px !important;
+		margin-right: 2px !important;
+		
+	}
+#lista1{
+	margin-left: 0;
+}
+
+#lista2{	
+	margin-left: 0;
+	margin-bottom: 10px;		
+}
+#lista3{
+	margin-left: 0;
+}
+#lista{
+	margin-left:50px;
+	margin-right:250px;
+	
+}
+.menu{
+	margin-right:5px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	margin-left: 0;
+
+}
+
+.menu ul li:nth-child(3){
+	float: left
+}
+.menu ul li{
+	display: block;
+	font-size: 1em;
+	padding-right: 80px;
+	padding-top: 30px;
+	
+}
+.menu ul {
+	text-align: center !important;
+	margin-top: 28%;
+	margin-left: 25%;
+}
+
+.menu ul li a:hover{
+	color: #E81127;
+	background-color: transparent;
+	
+}
+
+
+#btn-fechar {
+	width: 56px;
+	height: 56px;
+	font-size: 1.5em;
+	color: #E81127;
+	background-color: transparent;
+	float: right;
+	margin: 3%;
+	margin-right: 12%;
+}
+#btn-menu {
+	width: 56px;
+	height: 56px;
+	font-size: 1.5em;
+	color: #E81127;
+	background-color: transparent;
+	float: right;
+	margin: 3%;
+}
+}
+
+/* tablets Portrait */
+@media screen and (max-width: 768px) {
+.produtos article{
+	width: 49%;
+}
+.serviços img{
+	width: 100%;
+}
+#fieldset{
+	margin-left:2px!important;
+	margin-right: 2px!important;
+	
+}
+.produtos   article:nth-child(2), article:nth-child(4) {
+	margin-right:0;
+}
+.produtos  article:nth-child(3){
+	margin-right: 2%;
+}
+#lista1{
+	margin-left: 0;
+}
+#lista2{	
+	margin-left: 0;
+	margin-bottom: 10px;		
+}
+#lista3{
+	margin-left: 0;
+}
+.menu{
+	margin-right:5px;
+	height: 100%;
+	background-color: rgba(0,0,0,0.9);
+	position: fixed;
+	margin-left: 0;
+width: 100%;
+}
+.menu ul li{
+	margin-right:50px;
+	
+}
+.rodape{
+	width:98%;
+	height: 50%;
+}
+}
+/*smartphones*/
+@media screen and (max-width: 480px) {
+	.logo{
+		width: 56px;
+		height: 56px;
+		background: url(img/logo-mobile.png) center center/56px no-repeat;
+	}
+	.menu ul{
+		margin-top: 20%;
+	}
+	
+	#fieldset{
+		margin-left: 2px;
+		margin-right: 2px;
+		
+	}
+	.serviços article {
+		width: 100%;
+		
+	}
+	.produtos article {
+		width: 100%;
+		
+	}
+	.produtos article img{
+		width: 100%!important;
+		
+	}
+	
+	.inner {
+		padding: 3%;
+	}
+	
+   .social-icons a{
+	   font-size: 1.5em;
+   }
+   .copy ul li{
+	   display: block;
+   }
+   .rodape{
+	width:98%;
+	height: 50%;
+}
+}
+/*Corrigir problemas no menu em displays acima de 768px*/
+
+@media screen and (min-width: 1360px){
+	#btn-menu, #btn-fechar{
+		display: none;
+	}
+	.menu {
+		display: block !important;
+	}
+	
+	
+	
+		
+}
